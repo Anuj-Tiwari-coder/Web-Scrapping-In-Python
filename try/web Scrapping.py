@@ -49,4 +49,3 @@ if data:
     with open('mutual_funds_data.json', 'w') as file:
         json.dump(data, file, indent=4)
     print("Data successfully scraped and saved as 'mutual_funds_data.json'")
-
